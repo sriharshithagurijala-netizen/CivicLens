@@ -1,0 +1,75 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "service": "CivicLens AI",
+  "categories": [
+    "pothole",
+    "road_damage",
+    "streetlight",
+    "garbage",
+    "drainage",
+    "water_supply",
+    "other"
+  ],
+  "dataset_rows": 2,
+  "evaluated_images": 2,
+  "skipped_images": 0,
+  "metrics": {
+    "evaluated_images": 2,
+    "correct_predictions": 1,
+    "incorrect_predictions": 1,
+    "accuracy": 0.5,
+    "macro_precision": 0.1429,
+    "macro_recall": 0.1429,
+    "macro_f1_score": 0.1429,
+    "per_class": {
+      "pothole": {
+        "support": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "road_damage": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "streetlight": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "garbage": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "drainage": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "water_supply": {
+        "support": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "other": {
+        "support": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      }
+    }
+  },
+  "notes": [
+    "Metrics use only successfully evaluated images.",
+    "Macro metrics average all seven categories, including categories with zero test examples.",
+    "Results are meaningful only when true labels are verified and the dataset represents the intended use case.",
+    "CLIP confidence is a model score, not a guarantee of prediction correctness."
+  ]
+}

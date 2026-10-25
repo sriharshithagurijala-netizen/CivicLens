@@ -1,0 +1,2 @@
+﻿pair_id,report_a,report_b,true_duplicate,predicted_duplicate,correct,distance_method
+P002,6add8aa532af1d6eb83e7777,6addb8556db7444f1a442a10,False,False,True,Same category and within 500 metres; requires human review.

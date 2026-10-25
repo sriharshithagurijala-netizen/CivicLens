@@ -1,0 +1,8 @@
+﻿true_label  , pothole, road_damage, streetlight, garbage, drainage, water_supply, other
+pothole     ,       1,           0,           0,       0,        0,            0,     0
+road_damage ,       0,           0,           0,       0,        0,            0,     0
+streetlight ,       0,           0,           0,       0,        0,            0,     0
+garbage     ,       0,           0,           0,       0,        0,            0,     0
+drainage    ,       0,           0,           0,       0,        0,            0,     0
+water_supply,       0,           0,           0,       0,        0,            0,     0
+other       ,       0,           0,           0,       0,        1,            0,     0

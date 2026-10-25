@@ -1,0 +1,2 @@
+﻿image_path        , true_label, predicted_label, confidence, correct, top_predictions
+images/second.jpeg, other     , drainage       ,   0.911927, False  , "[{""label"": ""drainage"", ""confidence"": 0.9119272232055664}, {""label"": ""water_supply"", ""confidence"": 0.06063224375247955}, {""label"": ""other"", ""confidence"": 0.023505736142396927}]"

@@ -1,0 +1,8 @@
+{
+  "reports_in_dataset": 3,
+  "reports_evaluated": 3,
+  "reports_skipped": 0,
+  "exact_rank_matches": 1,
+  "exact_rank_match_rate": 0.3333,
+  "note": "This compares calculated rankings with the supplied reference ranks. Results are not meaningful until reference ranks are independently assigned using a documented severity, recurrence, and age rubric. The endpoint recalculates and saves each report's score."
+}
